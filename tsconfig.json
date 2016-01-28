@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "out/",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "declaration": true,
+    "sourceMap": true,
+    "newLine": "LF"
+  },
+  "exclude": [
+    "out",
+    "node_modules",
+    "typings/browser",
+    "typings/browser.d.ts"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "prepublish": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hello-world-sf/typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "talk",
+    "meetup",
+    "presentation",
+    "learn",
+    "challenge"
+  ],
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hello-world-sf/typescript/issues"
+  },
+  "homepage": "https://github.com/hello-world-sf/typescript",
+  "devDependencies": {
+    "ts-node": "^0.5.5",
+    "typescript": "^1.7.5",
+    "typings": "^0.6.2"
+  },
+  "dependencies": {
+    "archy": "^1.0.0",
+    "glob": "^6.0.4",
+    "minimist": "^1.2.0",
+    "native-or-bluebird": "^1.2.0",
+    "xtend": "^4.0.1"
+  }
+}
